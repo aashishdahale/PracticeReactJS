@@ -1,0 +1,21 @@
+function TodoItem2() {
+  let todoName = "Go to Work";
+  let todoDate = "04/10/2025";
+  return (
+    <div>
+      <div class="container">
+        <div class="row kg-row">
+          <div class="col-6">{todoName}</div>
+          <div class="col-4">{todoDate}</div>
+          <div class="col-2">
+            <button type="button" class="btn kg-button btn-danger ">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default TodoItem2;
